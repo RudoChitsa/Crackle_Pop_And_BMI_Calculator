@@ -1,0 +1,18 @@
+print("Hey, I am Body Mass Calculator, whats is your name")
+name =  input  ()
+print ("Hey, "+ name  +", I am Body Mass Calculator, please type in your weight in kg")
+num1 = input  ("")
+print("Thank you  please type in your height in metres")
+num2 = input  ("")
+bmi = float(num1) / float(num2)**2
+print("Thank you, " + name + " , Your Body Mass Index is, ")
+print (bmi)
+bmi = float(num1) / float(num2)**2
+if bmi >= float(25):
+        print("You are overweight")
+elif bmi >= (18.5):
+        print ("You have Healthy weight")
+elif bmi == (24.9):
+        print ("You have a Healthy weight")
+elif bmi < (18.5):
+        print ("You are underweight")
